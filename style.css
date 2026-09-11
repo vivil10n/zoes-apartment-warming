@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #CCDCEB;
+  color: #2f3a45;
+  font-family: "Courier Sans", "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 32px;
+}
+
+.card {
+  width: 100%;
+  max-width: 680px;
+  text-align: center;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: clamp(11px, 1.75vw, 14px);
+  line-height: 1.65;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #2f3a45;
+}
+
+.side-note {
+  position: fixed;
+  left: 26px;
+  bottom: 26px;
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #5f758c;
+  opacity: 0.9;
+  text-align: left;
+  font-weight: 500;
+}
+
+.cursor::after {
+  content: "|";
+  color: #5f758c;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 28px 20px 72px;
+  }
+
+  .side-note {
+    left: 20px;
+    bottom: 18px;
+    font-size: 10px;
+  }
+
+  pre {
+    font-size: 11px;
+    line-height: 1.55;
+  }
+}
