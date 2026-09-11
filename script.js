@@ -11,24 +11,16 @@ const ascii = `
   |=|________()|__|()_______|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|
 ^^^^^^^^^^^^^^^ === ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   ______________  ===
-   <_ASEAN_BADDIES_>  ===
+   <_ZOE'S HOUSEWARMING_>  ===
           ^|^            ===
               |                ===
 `;
 
 const message = `
 
-sydney  →  canberra
+hello zoe!
 
-a small housewarming delivery
-
-hello linh, sabut and rishika!
-
-thank you for inviting me into your new home :)
-
-i brought a little something from sydney:
-filipino bread for the table,
-and aesop hand soap for the bathroom :p
+thank you for inviting me into your new apartment :-)
 
 may your new home be full of good food,
 clean hands, warm lights,
