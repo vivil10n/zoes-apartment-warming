@@ -1,32 +1,46 @@
 const ascii = `
-           )
-         ( _   _._
-          |_|-'_~_\`-._
-       _.-'-_~_-~_-~_-_\`-._
-   _.-'_~-_~-_-~-_~_~-_~-_\`-._
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    |  []  []   []   []  [] |
-    |           __    ___   |
-  ._|  []  []  | .|  [___]  |_._._._._._._._._._._._._._._._._.
-  |=|________()|__|()_______|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|
-^^^^^^^^^^^^^^^ === ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  ______________  ===
-   <_ZOE'S HOUSEWARMING_>  ===
-          ^|^            ===
-              |                ===
+             ______________________
+            /_____________________/|
+           |   _   _   _   _    | |
+           |  |_| |_| |_| |_|   | |
+           |                    | |
+           |   _   _   _   _    | |
+           |  |_| |_| |_| |_|   | |
+           |                    | |
+           |   _   _   _   _    | |
+           |  |_| |_| |_| |_|   | |
+           |                    | |
+           |      ________      | |
+           |     |  __  __|     | |
+           |     | |  ||  |     | |
+           |_____|_|__||__|_____|/
+                /        \\
+               /  ZOE'S   \\
+              / APARTMENT  \\
+             /______________\\
 `;
 
 const message = `
 
 hello zoe!
 
-thank you for inviting me into your new apartment :-)
+congratulations on having your very own little corner of the world :-)
 
-may your new home be full of good food,
-clean hands, warm lights,
-and friends who always arrive hungry hehe
+i hope this apartment sees many post-bouldering debriefs,
+very large bowls of malatang,
+random late-night snacks,
+and people sitting around for much longer than they planned to.
 
-with love,
+may your fridge always be full,
+your neighbours be normal (hopefully),
+and your arms and bruises eventually recover from climbing.
+
+thank you for letting me be one of the first people
+to make some memories here with you <3
+
+happy housewarming!!
+
+love,
 vivian
 `;
 
